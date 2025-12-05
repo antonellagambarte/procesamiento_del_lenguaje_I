@@ -32,7 +32,7 @@ Este repo reúne todos los desafíos realizados para la materia **Procesamiento 
 **Qué se hizo:** Entrenamiento de modelos para generar texto caracter por caracter.  
 **Highlights:**
 - ✂️ Tokenización por caracteres.  
-- 🔁 Uso de **SimpleRNN, LSTM y GRU**.  
+- 🔁 Uso de red recurrente **LSTM**.  
 - 🎯 Generación de secuencias con **greedy** y **beam search** (determinístico y estocástico).  
 - 🌡 Exploración del efecto de la **temperatura** en la generación de texto.
 
@@ -41,7 +41,7 @@ Este repo reúne todos los desafíos realizados para la materia **Procesamiento 
 ---
 
 ## 🌎 Desafío 4 – Traductor Inglés → Español
-**Qué se hizo:** Armamos un traductor automático usando **LSTM encoder-decoder** con embeddings preentrenados (GloVe).  
+**Qué se hizo:** Armamos un traductor automático usando **LSTM encoder-decoder** con embeddings preentrenados.  
 **Highlights:**
 - 📝 Tokenización y preprocesamiento de texto.  
 - 📏 Padding adaptado para encoder y decoder.  
